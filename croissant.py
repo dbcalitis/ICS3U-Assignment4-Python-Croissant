@@ -28,6 +28,8 @@ def main():
     except (Exception):
         print("Invalid Input.")
 
+    print("\nDone.")
+
 
 if __name__ == "__main__":
     main()
