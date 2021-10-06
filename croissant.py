@@ -21,10 +21,10 @@ def main():
         # if the user buys 6 or more croissants then they will get the tax off
         if number_of_croissants >= 6:
             total = number_of_croissants * constants.CROISSANT_PRICE
-            print("The total cost will be ${:,.2f} (no HST)".format(total))
+            print("The total cost will be ${:,.2f} (no HST).".format(total))
         else:
             total = (number_of_croissants * constants.CROISSANT_PRICE) * constants.HST
-            print("The total cost will be ${:,.2f} (with HST)".format(total))
+            print("The total cost will be ${:,.2f} (with HST).".format(total))
     except (Exception):
         print("Invalid Input.")
 
