@@ -11,8 +11,11 @@ def main():
     # This program calculates the total cost of the croissants
     total = 0
     print("Croissants are ${0} each.".format(constants.CROISSANT_PRICE))
+
+    # input
     number_of_croissants = input("How many croissants would you like?: ")
 
+    # process & ouput
     try:
         number_of_croissants = int(number_of_croissants)
         # if the user buys 6 or more croissants then they will get the tax off
